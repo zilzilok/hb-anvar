@@ -1,0 +1,44 @@
+html {
+    box-sizing: border-box;
+}
+
+.wrapper img {
+    vertical-align: middle;
+}
+
+​ *,
+*:before,
+*:after {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #37393B;
+    color: #fff;
+    font-family: arial;
+    letter-spacing: 2px;
+}
+
+.wrapper {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    width: 90%;
+    left: 5%;
+    margin-top: -87.5px;
+    font-size: 50px;
+    height: 175px;
+}
+
+.wave {
+    color: #e77f7f;
+    animation: 0.5s color infinite;
+}
+
+@keyframes color {
+    50% {
+        color: #ffffff;
+    }
+}
